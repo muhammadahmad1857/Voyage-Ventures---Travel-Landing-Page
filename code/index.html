@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voyage Ventures - Travel Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav>
+          <div class="navbar">
+            <div class="logo">
+              <a href="/">Voyage Ventures</a>
+            </div>
+            <div class="links">
+              <a href="#">Home</a>
+              <a href="#about">About Us</a>
+              <a href="#destination">Destination</a>
+              <a href="#">Packages</a>
+              <a href="#contact">Contact</a>
+            </div>
+            <div class="menu-container" onclick="toggleSidebar()">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </div>
+        </nav>
+        <section class="hero">
+          <div class="hero-left">
+            <h2>
+              Explore the World with Voyage Ventures – Your Gateway to
+              Unforgettable Journeys!
+            </h2>
+            <p>
+              Dive into diverse cultures, breathtaking landscapes, and unique
+              experiences with our tailor-made travel packages designed for
+              every adventurer.
+            </p>
+            <div class="hero-btn">
+              <button class="btn btn-style">book now</button
+              ><button class="btn outline-btn-style">learn more</button>
+            </div>
+          </div>
+          <div class="hero-right">
+            <div class="hero-images">
+              <div class="plane">
+                <img src="assets/plane.png" alt="" /><img
+                  class="second-img"
+                  src="assets/plane.png"
+                  alt=""
+                />
+              </div>
+              <img
+                src="https://media.istockphoto.com/id/2076339319/photo/travel-agency-building-with-glass-windows-and-sky-reflections-sign-travel-agency-on-the.webp?a=1&b=1&s=612x612&w=0&k=20&c=plU_jkWIPEMFYy3qX_YPLGpLFD8B-nabgVePh-h10SQ="
+                alt=""
+                class="hero-img"
+              />
+            </div>
+            <img src="assets/header-bg.png" alt="" class="header-img" />
+          </div>
+        </section>
+      </header>
+      <section id="about">
+        <div class="about-images">
+          <img src="assets/tree.png" alt="" class="about-tree" />
+          <img src="assets/birds.png" alt="" class="about-birds" />
+        </div>
+
+        <div class="about-heading">
+          <h2>Why Travel With Us?</h2>
+          <p>
+            From exclusive deals to personalized itineraries, discover the
+            benefits of booking your next adventure with Voyage Ventures.
+          </p>
+        </div>
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/location-img.png" alt="" /><img
+                src="assets/about-bg-img.png"
+                class="bg-top-img"
+                alt=""
+              />
+            </div>
+            <h1>Tailor Your Perfect Journey</h1>
+            <p>With Voyage Ventures, every travel plan is flexible.</p>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/user-map-img.png" alt="" /><img
+                src="assets/about-bg-img.png"
+                class="bg-bottom-img"
+                alt=""
+              />
+            </div>
+            <h1>Explore with Local Experts</h1>
+            <p>
+              Our expert local guides bring destinations to life through their
+              knowledge and stories.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/tickets.png" alt="" /><img
+                src="assets/about-bg-img.png"
+                class="bg-top-img"
+                alt=""
+              />
+            </div>
+            <h1>Enjoy More Worry Less</h1>
+            <p>
+              Our all-inclusive packages mean you can leave your worries at
+              home.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/calender.png" alt="" /><img
+                src="assets/about-bg-img.png"
+                class="bg-bottom-img"
+                alt=""
+              />
+            </div>
+            <h1>Book With Ease</h1>
+            <p>
+              Our all-inclusive packages mean you can leave your worries at
+              home.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-text">
+          <h2>Get in Touch with Voyage Ventures</h2>
+          <p>
+            Have questions or need assistance planning your next trip? We're
+            here to help! Reach out to us via phone, email, or by filling out
+            the form below
+          </p>
+        </div>
+        <form>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-style">Submit</button>
+        </form>
+      </section>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+      <a href="#" onclick="toggleSidebar()">Home</a>
+      <a href="#about" onclick="toggleSidebar()">About Us</a>
+      <a href="#destination" onclick="toggleSidebar()">Destination</a>
+      <a href="#" onclick="toggleSidebar()">Packages</a>
+      <a href="#contact" onclick="toggleSidebar()">Contact</a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
