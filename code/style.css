@@ -1,3 +1,5 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+@import url("https://letterena.com/product/mashetic/");
 :root {
   --main: #fda83b;
   --secondary: #d4eafe;
@@ -48,6 +50,7 @@ a {
 }
 
 .logo a {
+  font-family: "mashetic";
   font-size: 28px;
   color: var(--main);
 }
@@ -59,6 +62,7 @@ a {
 }
 
 .links a {
+  font-family: "poppins";
   font-weight: bold;
   color: black;
   transition: color 0.3s ease-in-out;
@@ -151,8 +155,10 @@ a {
 .hero-left h2 {
   font-size: 44px;
   line-height: 60px;
+  font-family: "mashetic";
 }
 .hero-left p {
+  font-family: "poppins";
   font-size: 24px;
   line-height: 40px;
 }
@@ -244,12 +250,14 @@ a {
 }
 
 .about-heading h2 {
+  font-family: "mashetic";
   font-size: 38px;
   line-height: 48px;
   padding-top: 200px;
 }
 
 .about-heading p {
+  font-family: "poppins";
   font-size: 24px;
   line-height: 40px;
 }
@@ -313,11 +321,13 @@ a {
 .products-heading h2 {
   font-size: 38px;
   line-height: 48px;
+  font-family: "mashetic";
   padding-top: 200px;
 }
 
 .products-heading p {
   font-size: 24px;
+  font-family: "poppins";
   line-height: 40px;
 }
 .trip__card {
@@ -329,6 +339,7 @@ a {
 }
 .trip__title {
   font-size: 18px;
+  font-family: "mashetic";
 }
 .trip__rating_group {
   width: 100%;
@@ -352,6 +363,7 @@ a {
   width: 100%;
 }
 .trip__price {
+  font-family: "mashetic";
   font-size: 24px;
   font-weight: 600;
 }
@@ -372,10 +384,12 @@ a {
   text-align: center;
 }
 .testimonial-header h2 {
+  font-family: "mashetic";
   font-size: 38px;
   line-height: 48px;
 }
 .testimonial-header p {
+  font-family: "poppins";
   font-size: 24px;
   line-height: 40px;
 }
@@ -450,18 +464,22 @@ a {
   color: var(--main);
   font-weight: bold;
   font-size: 18px;
+  font-family: "mashetic";
 }
 
 .testimonial-card-header p {
   color: #8b8b8b;
   font-size: 14px;
+  font-family: "poppins";
 }
 .testimonial-card-content h4 {
   font-size: 14px;
+  font-family: "mashetic";
   font-weight: bold;
 }
 .testimonial-card-content p {
   font-size: 12px;
+  font-family: "poppins";
 }
 
 .indicators {
@@ -481,7 +499,8 @@ a {
 #indicators-2 .indicator {
   background-color: #fafafa;
 }
-#indicators-2 .indicator.active, #indicators .indicator.active {
+#indicators-2 .indicator.active,
+#indicators .indicator.active {
   background-color: var(--main);
 }
 #contact {
@@ -544,11 +563,13 @@ textarea:focus {
 }
 
 .contact-text h2 {
+  font-family: "mashetic";
   font-size: 38px;
   line-height: 40px;
 }
 
 .contact-text p {
+  font-family: "poppins";
   font-size: 18px;
   line-height: 24px;
 }
@@ -578,6 +599,7 @@ form button[type="submit"] {
   font-weight: bold;
   color: var(--main);
   text-wrap: nowrap;
+  font-family: mashetic;
 }
 .footer-header div {
   height: 2px;
@@ -618,6 +640,7 @@ form button[type="submit"] {
 }
 .footer-content-heading {
   font-size: 28px;
+  font-family: "mashetic";
   font-weight: bold;
 }
 .footer-content-para,
@@ -627,6 +650,7 @@ form button[type="submit"] {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   text-transform: capitalize;
+  font-family: "poppins";
 }
 .footer-content-para:hover,
 .footer-contact:hover {
@@ -801,6 +825,10 @@ form button[type="submit"] {
   }
   .footer-header {
     justify-content: center;
+  }
+  #info {
+    position: relative;
+    padding: 10px 0px;
   }
 }
 
