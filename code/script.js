@@ -99,7 +99,6 @@ const secondSliderData = [
   },
 ];
 
-// Function to initialize sliders
 function initializeSlider(
   sliderWrapperId,
   indicatorId,
