@@ -108,7 +108,8 @@ a {
   display: none;
   left: -100vw; /* Initially hidden */
   width: 100vw;
-  height: 100%;
+  overflow-y: scroll;
+  min-height: 100vh;
   background-color: var(--secondary);
   transition: left 0.3s ease;
   z-index: 1000;
